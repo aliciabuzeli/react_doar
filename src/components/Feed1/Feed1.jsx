@@ -1,10 +1,10 @@
-import CardsOngs from "../CardsOngs/CardsOngs.jsx";
-import css from './BuscarOngs1.module.css'
+import CardsAtualizacoes from "../CardsAtualizacoes/CardsAtualizacoes.jsx";
 import {useEffect, useState} from "react";
 import Input from "../Input/Input.jsx";
+import css from './Feed1.module.css';
 
 
-export default function BuscarOngs1() {
+export default function Feed1() {
     let [busca, setBusca] = useState('');
     let [ongs, setOngs] = useState([]);
 
@@ -15,7 +15,7 @@ export default function BuscarOngs1() {
     }
 
     async function buscarOngs() {
-        let buscaOngs = await fetch("http://10.92.3.126:5000/listar_ongs/" + busca, {
+        let buscaOngs = await fetch("http://10.92.3.122:5000/listar_ongs/" + busca, {
             method: "GET",
             headers: {
                 'Accept': 'application/json',
@@ -47,22 +47,17 @@ export default function BuscarOngs1() {
                     placeholder={"Digite"}
                 />
 
-                {ongs.map(function(ong) {
-                    return (
-                        <div className={css.secao}>
-                            <CardsOngs
-                                key={ong.id_usuarios}
-                                nome={ong.nome}
-                                subtitulo={ong.descricao_curta}
-                                descricao={ong.descricao_longa}
-                                localizacao={ong.localizacao}
-                                imagem={"/public/image 4.png"}
-                                tipo={ong.categoria}
-                            />
-                        </div>
-                    )
-                }
-                )}
+                <CardsAtualizacoes
+                    nome="GRUPA"
+                    descricao="Grupo Unido Pelos Animais "
+                    data="02/02/2026 às 14:00"
+                    titulo="Patas que Transformam Vidas"
+                    texto="Projeto voltado ao resgate, cuidado e adoção responsável de animais abandonados, promovendo bem-estar e conscientização na comunidade. 🐾"
+                    ajuda="A"
+                    logo="OIII"
+                    imagem="OIII"
+
+                />
             </div>
 
             <div>

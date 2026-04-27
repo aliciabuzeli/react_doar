@@ -82,7 +82,7 @@ export default function Header() {
                                 <li><a href="/" className={css.linkMobile}>Home</a></li>
                                 <li><a href="/" className={css.linkMobile}>Benefícios</a></li>
                                 <li><a href="/" className={css.linkMobile}>Junte-se a nós!</a></li>
-                                <li><a href="/" className={css.linkMobile}>ONGs e Projetos</a></li>
+                                <li><a href="/feed" className={css.linkMobile}>ONGs e Projetos</a></li>
                                 <li ><Link to={"/cadastroOng"} className={css.linkMobile}>Cadastro</Link></li>
                                 <li><Link to={"/login"} className={css.linkMobile}>Login</Link></li>
                             </ul>
@@ -110,7 +110,7 @@ export default function Header() {
                             <li><a href="/" className={css.link}>Home</a></li>
                             <li><a href="/" className={css.link}>Benefícios</a></li>
                             <li><a href="/" className={css.link}>Junte-se a nós!</a></li>
-                            <li><a href="/" className={css.link}>ONGs e projetos</a></li>
+                            <li><a href="/feed" className={css.link}>ONGs e projetos</a></li>
                         </ul>
                     </nav>
 

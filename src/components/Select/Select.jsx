@@ -8,8 +8,8 @@ export default function Select({input, alterarInput, options = [], label, requir
             <label className={css.titulo}>{label}</label>
             <select className={css.select1} onChange={alterarInput} value={input} required={required}>
                 {options.map((opt, i) => (
-                    <option key={i} value={opt}>
-                        {opt}
+                    <option key={i} value={opt.valor}>
+                        {opt.texto}
                     </option>
                 ))}
             </select>
