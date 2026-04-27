@@ -1,4 +1,4 @@
-import EditarProjeto1 from "../components/EditarProjeto1/EditarProjeto1.jsx";
+import EditarProjeto1 from "../components/EditarProjetos1/EditarProjetos1.jsx";
 
 export default function EditarProjeto() {
     return(

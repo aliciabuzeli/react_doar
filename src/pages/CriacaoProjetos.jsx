@@ -1,4 +1,4 @@
-import CriacaoProjetos1 from "../components/CriacaoProjetos1/CriacaoProjetos1.jsx";
+import CriacaoProjetos1 from "../components/CriacaoProjeto1/CriacaoProjeto1.jsx";
 
 export default function CriacaoProjetos() {
     return(
