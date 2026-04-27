@@ -1,0 +1,21 @@
+.secao {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.dflex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dblock{
+    display: block;
+}
+
+.menu {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}

@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    padding-top: 5rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    min-height: 300vh;
+    border-right: 1px solid #ccc;
+    padding-right: 5rem;
+
+}
+
+.funcoes{
+    display: flex;
+    text-align: start;
+    gap: 1rem;
+}
+
+.funcoes h2{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #0a4a73;
+}
+
+.funcoes img{
+    width: 2.5rem;
+    height: 2rem;
+}

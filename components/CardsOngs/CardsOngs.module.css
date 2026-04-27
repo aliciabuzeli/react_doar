@@ -1,0 +1,66 @@
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.subtitulo {
+    color: #555;
+    font-size: 14px;
+}
+
+.favorito {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff6b9a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff6b9a;
+    cursor: pointer;
+}
+
+.descricao {
+    margin: 15px 0;
+    color: #333;
+    line-height: 1.5;
+}
+
+.local {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+}
+
+.botao {
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 2px solid #2c7dbf;
+    background: transparent;
+    color: #2c7dbf;
+    font-weight: bold;
+    cursor: pointer;
+}

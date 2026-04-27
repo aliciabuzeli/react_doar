@@ -1,0 +1,39 @@
+.secao{
+    display: flex;
+    align-items: flex-start;
+    gap: 7rem;
+}
+
+.menulateral{
+    display: flex;
+
+
+}
+
+.conteudo{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+.acoes{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    height: 25rem;
+    align-items: center;
+}
+
+.titulos{
+    margin: 0
+}
+
