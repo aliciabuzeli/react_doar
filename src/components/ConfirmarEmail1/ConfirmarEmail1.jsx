@@ -7,7 +7,7 @@ import Mensagem from "../Mensagem/Mensagem.jsx";
 import {useState} from "react";
 
 
-const API_URL = 'http://10.92.3.180:5000';
+const API_URL = 'http://10.92.3.144:5000';
 
 export default function ConfirmarEmail1() {
     const [codigo, setCodigo] = useState('');

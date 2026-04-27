@@ -1,5 +1,6 @@
 import CardsOngs from "../CardsOngs/CardsOngs.jsx";
 import css from './BuscarOngs1.module.css'
+import Recomendacoes from "../Recomendacoes/Recomendacoes.jsx";
 
 export default function BuscarOngs1() {
     return(
@@ -36,6 +37,15 @@ export default function BuscarOngs1() {
             </div>
 
             <div>
+                {/*<Recomendacoes*/}
+                {/*    imagem={"/public/image 6.png"}*/}
+                {/*    nome={"Grupa"}*/}
+                {/*    subtitulo={"Animais"}*/}
+
+                {/*    imagem={"/public/image 7.png"}*/}
+                {/*    nome={"Grupa"}*/}
+                {/*    subtitulo={"Animais"}*/}
+                {/*/>*/}
 
             </div>
 

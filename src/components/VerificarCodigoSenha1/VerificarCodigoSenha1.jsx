@@ -25,7 +25,7 @@ export default function VerificarCodigoSenha1() {
     }
 
     async function verificarCodigoSenha() {
-        let retorno = await fetch('http://10.92.3.180:5000/verificar_codigo', {
+        let retorno = await fetch('http://10.92.3.144:5000/verificar_codigo', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

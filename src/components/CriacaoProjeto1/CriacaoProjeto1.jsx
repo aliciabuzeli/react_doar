@@ -1,4 +1,4 @@
-import css from "../CadastroDoador1/CadastroDoador1.module.css";
+import css from "../CriacaoProjeto1/CriacaoProjeto1.module.css";
 import Titulo from "../Titulo/Titulo.jsx";
 import Input from "../Input/Input.jsx";
 import InputArquivo from "../InputArquivo/InputArquivo.jsx";
@@ -28,7 +28,7 @@ export default function EditarProjeto1() {
     return(
         <>
             <div className={css.organizar}>
-                <Titulo titulo={'Editar Projeto'} cor={'azul-claro'} />
+                <Titulo titulo={'Criar novo projeto'} cor={'azul-claro'} />
             </div>
             <div className={css.formulario}>
                 <div className={css.linha}>
@@ -80,7 +80,7 @@ export default function EditarProjeto1() {
                     </div>
                 </div>
                 <div className={css.botaoContainer}>
-                    <Botao texto={'Editar projeto'} cor={'azul'}/>
+                    <Botao texto={'Criar projeto'} cor={'azul'}/>
                 </div>
             </div>
         </>

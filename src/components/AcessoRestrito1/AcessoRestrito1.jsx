@@ -16,7 +16,7 @@ export default function AcessoRestrito1() {
 
     async function Logout() {
         const token = localStorage.getItem('token');
-        await fetch('http://10.92.3.180:5000/logout', {
+        await fetch('http://10.92.3.144:5000/logout', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -72,7 +72,7 @@ export default function CadastroDoador1() {
         form.append('confirmar_senha', confirmarSenha)
         form.append('foto_perfil', fotoPerfil)
 
-        let retorno = await fetch('http://10.92.3.180:5000/criar_usuarios', {
+        let retorno = await fetch('http://10.92.3.144:5000/criar_usuarios', {
             method: 'POST',
             credentials: 'include',
             body: form
