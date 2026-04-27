@@ -23,6 +23,7 @@ import DashboardDoador from "./pages/DashboardDoador.jsx";
 import EditarProjeto from "./pages/EditarProjetos.jsx";
 import CriacaoProjetos from "./pages/CriacaoProjetos.jsx";
 import BuscarOngs from "./pages/BuscarOngs.jsx";
+import Feed from "./pages/Feed.jsx";
 
 export default function App() {
   return (
@@ -48,9 +49,10 @@ export default function App() {
             <Route path="/aprovarReprovar" element={<AprovacoesReprovacoes/>} />
             <Route path="/teste" element={<Teste/>} />
             <Route path="/dashboardDoador" element={<DashboardDoador/>} />
-            <Route path="/editarProjetos" element={<EditarProjeto/>} />
+            <Route path="/editarProjetos/:id" element={<EditarProjeto/>} />
             <Route path="/criacaoProjetos" element={<CriacaoProjetos/>} />
             <Route path="/buscarOngs" element={<BuscarOngs/>} />
+            <Route path="/feed" element={<Feed/>} />
 
 
 
