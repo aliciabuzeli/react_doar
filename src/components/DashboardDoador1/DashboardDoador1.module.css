@@ -1,0 +1,135 @@
+.main {
+    padding: 30px;
+    background: #f5f5f5;
+}
+
+/* TÍTULO */
+.main h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main h1 span {
+    color: #ff5c8a;
+}
+
+/* TÍTULOS DAS SEÇÕES */
+.main h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* AÇÕES RÁPIDAS */
+.acoes {
+    display: flex;
+    gap: 20px;
+}
+
+/* BOTÕES */
+.acoes button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    background: white;
+
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.acoes button:hover {
+    transform: scale(1.05);
+}
+
+/* CÍRCULO DO ÍCONE */
+.btnrosa::before,
+.btnlaranja::before,
+.btnroxo::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* CORES */
+.btnrosa::before {
+    background: #ff6b9a;
+}
+
+.btnlaranja::before {
+    background: #f4a261;
+}
+
+.btnroxo::before {
+    background: #9b59b6;
+}
+
+/* ONGS */
+.ongs {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.ong {
+    width: 120px;
+    height: 120px;
+    background: #eaeaea;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-weight: 500;
+}
+
+/* DOAÇÕES */
+.doacoes {
+    display: flex;
+    gap: 25px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TAG */
+.tag {
+    background: #ff6b9a;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.tagroxa {
+    background: #ff6b9a;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* TEXTO */
+.card h2 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #555;
+    font-size: 14px;
+}
